@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/addItemEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Type here"
+        android:inputType="textPersonName"
+         />
+
+    <Button
+        android:id="@+id/btn_addFruit"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemEditText"
+        android:layout_marginBottom="50dp"
+        android:text="ADD FRUITS" />
+
+    <ListView
+        android:id="@+id/list_view_fruits"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="30dp"
+        android:choiceMode="multipleChoice">
+    </ListView>
+
+
+    <Button
+        android:id="@+id/btn_delete_items"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_view_fruits"
+        android:text="DELETE FRUITS" />
+
+</RelativeLayout>

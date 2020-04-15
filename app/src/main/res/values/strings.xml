@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Fruits Nutritional Value </string>
+    <string name="textview">TextView</string>
+    <string name="textview1">TextView</string>
+    <string name="checkbox">CheckBox</string>
+
+    <string-array name="fruit_name">
+         <item>Pear </item>
+         <item>Mango</item>
+         <item>Kiwi</item>
+         <item>Dragon Fruit</item>
+         <item>Apple</item>
+         <item>Banana</item>
+         <item>Watermelon</item>
+         <item>Blueberries</item>
+         <item>Oranges</item>
+    </string-array>
+
+    <string-array name="fruit_description">
+        <item>PEAR - contains high levels of antioxidants, including vitamin C, vitamin K, and copper.</item>
+        <item>MANGO - is rich in vit A, C, E and folate</item>
+        <item>KIWI - has full of nutrients like vitamin C, vitamin K, vitamin E, folate, and potassium.</item>
+        <item>DRAGON FRUIT - is rich in vitamin C, B1, B2 and B3, and minerals such as iron, calcium, and phosphorus.</item>
+        <item>APPLE - are a good source of several vitamins and minerals, especially potassium, vitamin B6, and vitamin C.</item>
+        <item>BANANA - is a good source of fiber, including both soluble and insoluble pectins, and it is also a good source of vitamin C.</item>
+        <item>WATERMELON  - juicy bite has significant levels of vitamins A, B6 and C, lots of lycopene, antioxidants and amino acids.</item>
+        <item>BLUEBERRIES - contain copper, beta-carotene, folate, choline, vitamins A and E, and manganese.</item>
+        <item>ORANGES - In addition to vitamin C, oranges contain fiber, potassium and choline, all of which are good for your heart.</item>
+
+    </string-array>
+
+
+</resources>
