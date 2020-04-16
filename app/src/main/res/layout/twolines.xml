@@ -18,8 +18,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
+            android:button="@drawable/checkbox"
             android:theme="@style/MyCheckBox"
-            android:text="@string/checkbox"
             android:layout_centerHorizontal="true"
             />
 
